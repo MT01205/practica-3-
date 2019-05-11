@@ -1,0 +1,152 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title> Aplicaciones Moviles </title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="file:///C|/Users/Abigail Estevez/Documents/Abigail Estevez/Maestria/7. Aplicaciones Moviles/Practica3/estilos.css"
+
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+
+
+
+
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1> Abigail Rddriguez Estevez </h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Página dos</a></li>
+            <li><a href="#page3">Página tres</a></li>
+			<li><a href="#page4">Página cuatro</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Página dos</h1>
+	</div>
+	<div data-role="content">	
+	
+  <label for ="texto"> Describe: <label>
+  <textarea name "area" id ="area" value"hola"></textarea>
+  
+  <form>
+  	<div class="ui-field-contain">
+    <label for ="seleccion"> Selecciona </label>
+    <select name= "seleccion" id="seleccion">
+    	<option value="1"> Puebla </option>
+        <option value="2"> Tlaxcala </option>
+        <option value="1"> oaxaca </option>
+        <option value="1"> Hidalgo </option>
+        
+     </select>
+     </div>
+     </form>
+     
+     
+     
+       
+  <form>
+  	<div class="ui-field-contain">
+    <label for ="seleccion"> Selecciona </label>
+    <select name= "seleccion" id="seleccion" data-native-menu="false">
+    	<option> Elige... </option>
+        <optgroup label="Grupo 1">
+    	<option value="1"> Puebla </option>
+        <option value="2"> Tlaxcala </option>
+        <option value="3"> oaxaca </option>
+        <option value="4"> Hidalgo </option>
+    	<option value="5"> Puebla </option>
+        <option value="6"> Tlaxcala </option>
+        <option value="7"> oaxaca </option>
+        </optgroup>
+   
+            
+        
+     </select>
+     </div>
+     </form>
+     
+     
+     
+       <form>
+  	<div class="ui-field-contain">
+    <label for ="seleccion"> Selecciona </label>
+    <select name= "seleccion" id="seleccion" data-native-menu="false" multiple="multiple">
+    	<option> Elige... </option>
+        <optgroup label="Grupo 1">
+    	<option value="1"> Puebla </option>
+        <option value="2"> Tlaxcala </option>
+        <option value="3"> oaxaca </option>
+        <option value="4"> Hidalgo </option>
+    	<option value="5"> Puebla </option>
+        <option value="6"> Tlaxcala </option>
+        <option value="7"> oaxaca </option>
+        </optgroup>           
+        
+    </select>
+    </div>
+    </form>
+     
+     
+     
+        
+    
+    
+    
+    </div>
+  
+  
+  
+  </form>
+    
+    
+    	
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	<</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Página tres</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+</body>
+</html>
